@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.header  {
+width: 900px;
+height: auto;
+margin: 2px 80px;
+padding: 1px;
+border: 2px;
+background-color: bisque;
+}
+.form {
+  margin: 30px 99px;
+  width: 500px;
+  height: 592px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 5px;
+}
+h1 {
+  height: 10px;
+  width: 200px;
+  margin: 25px 150px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.para {
+  border: 1px;
+  padding: 2px;
+  margin:2px 50px;
+  height: 20px;
+  width: 380px;
+}
+.form-control {
+  margin: auto 50px;
+
+}
+input[type=text], [type=email], [type=number]{
+  width: 300px;
+  padding: 2px 2px;
+  margin: 10px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+input[type=text]:focus {
+  background-color: rgb(45, 112, 134);
+}
+/*styling my textarea */
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #e2acac;
+}
+/*styling my select element*/
+select {
+  width:  80%;
+  padding: 1px;
+  border: none;
+  border-radius: 4px;
+  background-color: #e7e5e5;
+}
+label [for=review]{
+  display: inline-block;
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+/* styling my button element*/
+button {
+  background-color: #2ccc;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 6px 20px;
+  text-decoration: none;
+  margin: 12px 50px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
