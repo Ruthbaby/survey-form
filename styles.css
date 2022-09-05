@@ -2,90 +2,110 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
-.header  {
-width: 900px;
-height: auto;
-margin: 2px 80px;
-padding: 1px;
-border: 2px;
-background-color: bisque;
+
+  body{
+    font-family: "Montserrat", "sans serif";
+    width: 100%;
+    height: 100%;
+    background-color: white;
 }
-.form {
-  margin: 30px 99px;
-  width: 500px;
-  height: 592px;
-  background-color: #fff;
-  border-radius: 30px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin: 5px;
-}
-h1 {
-  height: 10px;
-  width: 200px;
-  margin: 25px 150px;
-  text-transform: capitalize;
-  text-align: center;
-}
-.para {
-  border: 1px;
-  padding: 2px;
-  margin:2px 50px;
-  height: 20px;
-  width: 380px;
-}
-.form-control {
-  margin: auto 50px;
+main{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 37%;
+    margin-right: 36.2%;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    background-color: rgb(192, 226, 226);
+    padding-top: 25px;
 
 }
-input[type=text], [type=email], [type=number]{
-  width: 300px;
-  padding: 2px 2px;
-  margin: 10px 0;
-  display: inline-block;
-  box-sizing: border-box;
+header{
+    text-align: center;
+    color: rgb(13, 13, 13);
 }
-input[type=text]:focus {
-  background-color: rgb(45, 112, 134);
+#title{
+    font-size: 30px;
 }
-/*styling my textarea */
-textarea {
-  width: 100%;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #e2acac;
+#description{
+    font-size: 14px;
+    margin-top: 10px;
 }
-/*styling my select element*/
-select {
-  width:  80%;
-  padding: 1px;
-  border: none;
-  border-radius: 4px;
-  background-color: #e7e5e5;
+#survey-form{
+    width: 100%;
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
-label [for=review]{
-  display: inline-block;
-  width: 100%;
-  padding: 16px 20px;
-  border: none;
-  box-sizing: border-box;
-  border-radius: 4px;
+.form-group{
+    margin: 15px;
+    gap: 2;
+    display: flex;
+    flex-direction: column;
 }
-/* styling my button element*/
-button {
-  background-color: #2ccc;
-  border-radius: 5px;
-  border: none;
-  color: white;
-  padding: 6px 20px;
-  text-decoration: none;
-  margin: 12px 50px;
-  cursor: pointer;
+.role{
+    display: flex;
+
+}
+input, select{
+    margin-top: 5px;
+    border: none;
+    height:15px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+label{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 1px;
+}
+.select-role, .remark{
+    margin-bottom: 6px;
+}
+select{
+    padding-right: 10px;
+}
+.radio-group{
+    display: flex;
+}
+
+[type="radio"]+label{
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.checkbox-group{
+    display: flex;
+}
+[type="checkbox"]+label{
+    margin-top: 12px;
+    margin-left: 10px;
+    gap: 2;
+}
+textarea{
+    height: 150px ;
+    width: auto;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    border: none;
+}
+#submit{
+    padding-top: 2px;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: rgb(13, 13, 13);
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgb(37, 37, 37);
+
 }
 
 

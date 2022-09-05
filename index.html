@@ -8,25 +8,27 @@
   <title>Survey Form</title>
 </head>
 <body>
-  <div>
-  <header class="header">
-    <div class="form">
+  <main>
+  <header>
+    <div id="form">
     <h1 class="one">Survey Form</h1>
     <p class="para">Thank You For Taking Your Time To Give Us Feedback</P>
-<form action="#" class="form-control">
-  <div>
-  <label for="name" class="form-1">Name</label>
-  <input type="text" name="name" id="name" placeholder="Enter your name" required />
+
+    </header>
+    <form id="survey-form">
+  <div class="form-group">
+    <label for="name" class="form-1">Name</label>
+    <input type="text" name="name" id="name" placeholder="Enter your name" required />
   </div>
-  <div>
+  <div class="form-group">
     <label for="email"> Email</label>
     <input type="email" name="email" id="email" placeholder="Enter your email" required />
   </div>
-  <div>
+  <div class="form-group">
     <label for="age">Age</label>
     <input type="number" name="age" id="age" min="0" max="99" step="1" placeholder="Enter your age" required/>
   </div>
-  <div>
+  <div class="form-group">
     <label for="roles">Choose A Role That Best Describes You</label>
     <select name="select-role" id="role">
       <option value="select your role">Select your role</option>
@@ -36,14 +38,14 @@
       <option value="nurse">Nurse</option>
     </select>
   </div>
-  <div>
+  <div class="form-group">
 <label for="rating">Would You Recommend Our Product To Your friends?</label>
 <input type="radio" name="rating" value="never"/>Never
 <input type="radio" name="rating" value="maybe"/>Maybe
 <input type="radio" name="rating" value="likely"/>Likely
 <input type="radio" name="rating" value="Definitely"/>Definitely
   </div>
-  <div>
+  <div class="form">
     <label for="review">Select Things that You Liked About Our Product</label>
     <input type="checkbox" name="review" value="ui"/>UI
     <input type="checkbox" name="review" value="Features"/>Features
@@ -64,7 +66,6 @@
 </form>
 
   </header>
-</div>
-</div>
+</main>
 </body>
 </html>
