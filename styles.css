@@ -14,7 +14,7 @@ main{
     margin-top: 60px;
     margin-bottom: 20px;
     margin-left: 37%;
-    margin-right: 36.2%;
+    margin-right: 36%;
     padding-bottom: 40px;
     border-radius: 20px;
     background-color: rgb(192, 226, 226);
@@ -32,34 +32,40 @@ header{
     font-size: 14px;
     margin-top: 10px;
 }
+
 #survey-form{
     width: 100%;
     margin-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
 }
+
 .form-group{
     margin: 15px;
     gap: 2;
     display: flex;
     flex-direction: column;
 }
+
 .role{
     display: flex;
 }
+
 input, select{
-    margin-top: 5px;
+    margin-top: 3px;
     border: none;
     height:25px;
     padding-left: 10px;
     border-radius: 5px;
     outline: none;
 }
+
 label{
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 1px;
 }
+
 .select-role, .remark{
     margin-bottom: 6px;
 }
@@ -72,19 +78,17 @@ select{
     display: flex;
 }
 
-[type="radio"]+label{
-    margin-top: 12px;
+.radio, label{
+    margin-top: 8px; 
     margin-left: 10px;
 }
 
 .checkbox-group{
     display: flex;
 }
-
-[type="checkbox"]+label{
+.checkbox,label{
     margin-top: 12px;
     margin-left: 10px;
-    gap: 2;
 }
 
 textarea{
@@ -96,19 +100,21 @@ textarea{
     border: none;
 }
 
-#submit{
-    padding-top: 2px;
-    height: 50px;
+button{
+    padding-top: 5px;
+    height: 30px;
+    width: 220px;
+    margin-left: 20px;
     border-radius: 6px;
     font-size: 18px;
     color: white;
     outline: none;
     border: none;
-    background-color: rgb(13, 13, 13);
+    background-color: rgb(13, 13, 115);
     cursor: pointer;
 }
 
-#submit:hover{
+button:hover{
     background-color: rgb(37, 37, 37);
 }
 
