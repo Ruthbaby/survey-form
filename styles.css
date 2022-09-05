@@ -37,7 +37,6 @@ header{
     margin-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
-
 }
 .form-group{
     margin: 15px;
@@ -47,12 +46,11 @@ header{
 }
 .role{
     display: flex;
-
 }
 input, select{
     margin-top: 5px;
     border: none;
-    height:15px;
+    height:25px;
     padding-left: 10px;
     border-radius: 5px;
     outline: none;
@@ -65,9 +63,11 @@ label{
 .select-role, .remark{
     margin-bottom: 6px;
 }
+
 select{
     padding-right: 10px;
 }
+
 .radio-group{
     display: flex;
 }
@@ -76,14 +76,17 @@ select{
     margin-top: 12px;
     margin-left: 10px;
 }
+
 .checkbox-group{
     display: flex;
 }
+
 [type="checkbox"]+label{
     margin-top: 12px;
     margin-left: 10px;
     gap: 2;
 }
+
 textarea{
     height: 150px ;
     width: auto;
@@ -92,6 +95,7 @@ textarea{
     padding: 10px;
     border: none;
 }
+
 #submit{
     padding-top: 2px;
     height: 50px;
@@ -103,9 +107,9 @@ textarea{
     background-color: rgb(13, 13, 13);
     cursor: pointer;
 }
+
 #submit:hover{
     background-color: rgb(37, 37, 37);
-
 }
 
 
